@@ -14,7 +14,7 @@ print(df)
 
 # 2. The Clean Up (SQL Equivalent: COALESCE or UPDATE)
 # ACTION: Fill the 'Salary' column's empty spots with the average salary
-# We use .mean() to ge tthe number, then .fillna() to plug it in
+# We use .mean() to get the number, then .fillna() to plug it in
 avg_pay = df['Salary'].mean()
 df['Salary'] = df['Salary'].fillna(avg_pay)
 
