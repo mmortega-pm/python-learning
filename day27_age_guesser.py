@@ -2,7 +2,7 @@ import requests
 
 print("--- The AI Age Guesser ---")
 
-# 1. The Input (Dynamic)
+# 1. The Input (Dynamic)Zor
 # We ask the user for a name, instead of hardcoding it
 name = input("Enter a name: ")
 
